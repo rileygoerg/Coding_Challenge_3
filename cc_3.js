@@ -5,4 +5,8 @@ class Car {
         this.make = make;
         this.speed = speed;
     }
+    accelerate(){
+        this.speed += 10;
+        console.log("The ", this.make, "accelerated.");
+    }
 }
