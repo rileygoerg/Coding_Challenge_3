@@ -1,1 +1,3 @@
 # Coding_Challenge_3
+## U14123683 Riley Goerg
+The goal of this challenge is to create a Car class in JavaScript that can be used alongside acceleration and brake functions to track a theoretical car's speed. First, the Car function is created by inputting the make and speed of the car. Second, the accelerate method is created to increase the car's speed. Third, the brake method is created to decrease the car's speed. Last, 2 unique cars are created and their speed is tracked via various accelerations and brakes.
