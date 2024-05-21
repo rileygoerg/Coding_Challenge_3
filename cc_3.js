@@ -5,8 +5,14 @@ class Car {
         this.make = make;
         this.speed = speed;
     }
+    // Part 2: Accelerate Function
     accelerate(){
         this.speed += 10;
         console.log("The ", this.make, "accelerated. Current speed: ", this.speed, "km/h");
+    }
+    // Part 3: Brake Function
+    brake(){
+        this.speed -= 5;
+        console.log("The ", this.make, "braked. Current speed: ", this.speed, "km/h");
     }
 }
